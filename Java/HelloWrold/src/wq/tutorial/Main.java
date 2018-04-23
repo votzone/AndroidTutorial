@@ -1,6 +1,22 @@
 package wq.tutorial;
 
+import wq.tutorial.basic_gramar.BasicGramar;
+
 public class Main {
+
+
+    /**
+     * 目录
+     */
+    static void index(){
+
+
+        // java 基础语法 Ctrl + 鼠标左键 点击进入
+        BasicGramar.tap_me = 1;
+
+    }
+
+
 
     static int add(int x, int y ){
         return x + y;
